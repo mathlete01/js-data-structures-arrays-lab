@@ -1,0 +1,169 @@
+{
+  "stats": {
+    "suites": 11,
+    "tests": 9,
+    "passes": 7,
+    "pending": 0,
+    "failures": 2,
+    "start": "2020-11-17T01:09:36.577Z",
+    "end": "2020-11-17T01:09:37.810Z",
+    "duration": 1233
+  },
+  "tests": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js drivers is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "appends a driver to the end of the drivers array",
+      "fullTitle": "index.js Array functions destructivelyAppendDriver(name) appends a driver to the end of the drivers array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "prepends a driver to the beginning of the drivers array",
+      "fullTitle": "index.js Array functions destructivelyPrependDriver(name) prepends a driver to the beginning of the drivers array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last driver from the drivers array",
+      "fullTitle": "index.js Array functions destructivelyRemoveLastDriver() removes the last driver from the drivers array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the First driver from the drivers array",
+      "fullTitle": "index.js Array functions destructivelyRemoveFirstDriver() removes the First driver from the drivers array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "appends a driver to the drivers array and returns a new array, leaving the drivers array unchanged",
+      "fullTitle": "index.js Array functions appendDriver(name) appends a driver to the drivers array and returns a new array, leaving the drivers array unchanged",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "prepends a driver to the drivers array and returns a new array, leaving the drivers array unchanged",
+      "fullTitle": "index.js Array functions prependDriver(name) prepends a driver to the drivers array and returns a new array, leaving the drivers array unchanged",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last driver in the drivers array and returns a new array, leaving the drivers array unchanged",
+      "fullTitle": "index.js Array functions removeLastDriver() removes the last driver in the drivers array and returns a new array, leaving the drivers array unchanged",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis' ] to have the same ordered members as [ 'Milo', 'Otis', 'Garfield' ]",
+        "showDiff": true,
+        "actual": "[\n  \"Milo\"\n  \"Otis\"\n]",
+        "expected": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis' ] to have the same ordered members as [ 'Milo', 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:67:41)\n    at processImmediate (node:internal/timers:462:21)"
+      }
+    },
+    {
+      "title": "removes the first driver from the drivers array and returns a new array, leaving the drivers array unchanged",
+      "fullTitle": "index.js Array functions removeFirstDriver() removes the first driver from the drivers array and returns a new array, leaving the drivers array unchanged",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [] to have the same ordered members as [ 'Otis', 'Garfield' ]",
+        "showDiff": true,
+        "actual": "[]",
+        "expected": "[\n  \"Otis\"\n  \"Garfield\"\n]",
+        "stack": "AssertionError: expected [] to have the same ordered members as [ 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:73:53)\n    at processImmediate (node:internal/timers:462:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "removes the last driver in the drivers array and returns a new array, leaving the drivers array unchanged",
+      "fullTitle": "index.js Array functions removeLastDriver() removes the last driver in the drivers array and returns a new array, leaving the drivers array unchanged",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [ 'Milo', 'Otis' ] to have the same ordered members as [ 'Milo', 'Otis', 'Garfield' ]",
+        "showDiff": true,
+        "actual": "[\n  \"Milo\"\n  \"Otis\"\n]",
+        "expected": "[\n  \"Milo\"\n  \"Otis\"\n  \"Garfield\"\n]",
+        "stack": "AssertionError: expected [ 'Milo', 'Otis' ] to have the same ordered members as [ 'Milo', 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:67:41)\n    at processImmediate (node:internal/timers:462:21)"
+      }
+    },
+    {
+      "title": "removes the first driver from the drivers array and returns a new array, leaving the drivers array unchanged",
+      "fullTitle": "index.js Array functions removeFirstDriver() removes the first driver from the drivers array and returns a new array, leaving the drivers array unchanged",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected [] to have the same ordered members as [ 'Otis', 'Garfield' ]",
+        "showDiff": true,
+        "actual": "[]",
+        "expected": "[\n  \"Otis\"\n  \"Garfield\"\n]",
+        "stack": "AssertionError: expected [] to have the same ordered members as [ 'Otis', 'Garfield' ]\n    at Context.<anonymous> (test/indexTest.js:73:53)\n    at processImmediate (node:internal/timers:462:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "fullTitle": "index.js drivers is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "appends a driver to the end of the drivers array",
+      "fullTitle": "index.js Array functions destructivelyAppendDriver(name) appends a driver to the end of the drivers array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "prepends a driver to the beginning of the drivers array",
+      "fullTitle": "index.js Array functions destructivelyPrependDriver(name) prepends a driver to the beginning of the drivers array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last driver from the drivers array",
+      "fullTitle": "index.js Array functions destructivelyRemoveLastDriver() removes the last driver from the drivers array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the First driver from the drivers array",
+      "fullTitle": "index.js Array functions destructivelyRemoveFirstDriver() removes the First driver from the drivers array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "appends a driver to the drivers array and returns a new array, leaving the drivers array unchanged",
+      "fullTitle": "index.js Array functions appendDriver(name) appends a driver to the drivers array and returns a new array, leaving the drivers array unchanged",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "prepends a driver to the drivers array and returns a new array, leaving the drivers array unchanged",
+      "fullTitle": "index.js Array functions prependDriver(name) prepends a driver to the drivers array and returns a new array, leaving the drivers array unchanged",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
